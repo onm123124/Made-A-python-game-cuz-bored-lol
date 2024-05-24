@@ -1,0 +1,46 @@
+Hiking game, choice based, Get from point A to B. 
+Jump from hill to land in water or go the long way. (One leads to death)
+
+
+IF YOU SELECT A CHOICE, SCREEN FADES OUT INTO BLACK, THEN CHOICE RESULT APPEARS ON SCREEN THEN ANOTHER SCREEN APPEARS SHOWING WHERE YA AT
+
+TO DO: 
+List of choices and fail / pass, Basically mapping out the story
+Choices will be on screen to click / key
+Scenes (Will most likely use AI for this)
+Splashscreen
+The character (Will move automatically)
+
+
+AT THE END, THE PLAYER IS INFORMED OF STRUGGLES OF PEOPLE THAT LIVE IN LOW INFRA AREA, (example; remote village in africa)
+Then game closes.
+
+
+
+MAP
+
+						START
+
+						SC.1
+						INTRO
+			Unknown Route (death) <---------	-----------> Village route (Safe {Delay})
+
+							SC.2	
+ Jump in the water and land near the shore (Safe)	<----------------	----------> Long way down (Safe {Delay})
+
+							SC.3
+							NIGHT
+			Go the extra mile (Death)	<-----	------> Stay in for the night (delay)	
+							
+
+							SC.4
+								(We are here)
+			Rich Forest mostly unknown (Safe)			<------ ----->	Dry Forest (Safe delay) 
+							
+								THE END
+
+
+
+
+
+
